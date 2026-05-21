@@ -41,5 +41,5 @@ jobs:
 
             docker run -d \
               --name front-eval2 \
-              -p 80:80 \
+              -p 5000:5000 \
               ${{ secrets.DOCKERHUB_USERNAME }}/front-eval2:latest
