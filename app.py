@@ -16,8 +16,7 @@ app.secret_key = os.getenv('SECRET_KEY', 'clave_secreta_por_defecto')
 CORS(app)
 
 # Configuración de la URL del backend API
-BACKEND_URL = os.getenv('BACKEND_URL', 'http://3.232.165.193:3000')
-# Ruta principal - muestra la página de inicio
+BACKEND_URL = os.getenv('BACKEND_URL', 'http://54.204.118.246:3000')# Ruta principal - muestra la página de inicio
 @app.route('/')
 def index():
     """
